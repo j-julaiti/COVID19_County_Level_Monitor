@@ -6,9 +6,9 @@ OS: Linux or OSX
 Python: >= 3.0
 
 Python Library:
-	- pandas
-	- numpy
-	- matplotlib
+- pandas
+- numpy
+- matplotlib
 
 You can install the library via pip install
 
