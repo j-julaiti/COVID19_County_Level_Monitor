@@ -1,15 +1,14 @@
 # COVID19 County Level Monitoring
 
 ## Requirements
-
 OS: Linux or OSX
 
 Python: >= 3.0
 
 Python Library:
-	1. pandas
-	2. numpy
-	3. matplotlib
+	- pandas
+	- numpy
+	- matplotlib
 
 You can install the library via pip install
 
@@ -28,7 +27,6 @@ You can install the library via pip install
 Note that you don't have to be inside the git folder to call the function scan
 
 ## Example
-
 `$ git clone https://github.com/JJ5196/COVID19_County_Level_Monitor.git`
 
 `$ cd COVID19_County_Level_Monitor`
@@ -48,5 +46,4 @@ Note that you don't have to be inside the git folder to call the function scan
 ![](https://github.com/JJ5196/COVID19_County_Level_Monitor/blob/master/output_example.png)
 
 ## Data
-
 Data from The New York Times, based on reports from state and local health agencies.
