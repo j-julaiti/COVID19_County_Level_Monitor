@@ -37,11 +37,15 @@ Note that you don't have to be inside the git folder to call the function scan
 
 `$ scan`
 
-`no config is file found, please input the 5-digit ZIP code: 17011
-2 records have been found, which county are you looking for?
-    1 Cumberland County, PA
-    2 York County, PA
-1`
+`no config is file found, please input the 5-digit ZIP code: 17011`
+
+`2 records have been found, which county are you looking for?`
+
+`    1 Cumberland County, PA`
+
+`    2 York County, PA`
+
+`1`
 
 ![](https://github.com/JJ5196/COVID19_County_Level_Monitor/blob/master/output_example.png)
 
