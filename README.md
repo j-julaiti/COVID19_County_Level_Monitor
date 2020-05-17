@@ -14,10 +14,10 @@ Python Library:
 You can install the library via pip install
 
 ## Install
-`git clone https://github.com/JJ5196/COVID19_County_Level_Monitor.git
-cd COVID19_County_Level_Monitor
-./init.sh
-source ~/.bashrc`
+`git clone https://github.com/JJ5196/COVID19_County_Level_Monitor.git`
+`cd COVID19_County_Level_Monitor`
+`./init.sh`
+`source ~/.bashrc`
 
 ## Usage
 `scan`
@@ -25,13 +25,13 @@ source ~/.bashrc`
 Note that you don't have to be inside the git folder to call the function scan
 
 ## Example
-`
-$ git clone https://github.com/JJ5196/COVID19_County_Level_Monitor.git
-$ cd COVID19_County_Level_Monitor
-$ ./init.sh
-$ source ~/.bashrc
-$ scan
-no config is file found, please input the 5-digit ZIP code: 17011
+
+`$ git clone https://github.com/JJ5196/COVID19_County_Level_Monitor.git`
+`$ cd COVID19_County_Level_Monitor`
+`$ ./init.sh`
+`$ source ~/.bashrc`
+`$ scan`
+`no config is file found, please input the 5-digit ZIP code: 17011
 2 records have been found, which county are you looking for?
     1 Cumberland County, PA
     2 York County, PA
