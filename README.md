@@ -1,6 +1,6 @@
-COVID19 County Level Monitoring
+# COVID19 County Level Monitoring
 
-# Requirements
+## Requirements
 
 OS: Linux or OSX
 
@@ -13,28 +13,32 @@ Python Library:
 
 You can install the library via pip install
 
-# Install
-git clone https://github.com/JJ5196/COVID19_County_Level_Monitor.git
+## Install
+`git clone https://github.com/JJ5196/COVID19_County_Level_Monitor.git
 cd COVID19_County_Level_Monitor
 ./init.sh
-source ~/.bashrc
+source ~/.bashrc`
 
-# Usage
+## Usage
 `scan`
 
 Note that you don't have to be inside the git folder to call the function scan
 
-# Example
+## Example
+`
 $ git clone https://github.com/JJ5196/COVID19_County_Level_Monitor.git
 $ cd COVID19_County_Level_Monitor
 $ ./init.sh
 $ source ~/.bashrc
 $ scan
-$ no config is file found, please input the 5-digit ZIP code: 17011
+no config is file found, please input the 5-digit ZIP code: 17011
 2 records have been found, which county are you looking for?
     1 Cumberland County, PA
     2 York County, PA
-1
+1`
 
-# Data 
+![](https://github.com/JJ5196/COVID19_County_Level_Monitor/blob/master/output_example.png)
+
+## Data
+
 Data from The New York Times, based on reports from state and local health agencies.
