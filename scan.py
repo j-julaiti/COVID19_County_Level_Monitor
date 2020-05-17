@@ -17,7 +17,7 @@ state_abb=json.load(open(pwd+"/lib/us-states-abb.json"))
 try:
     config=json.load(open(pwd+"/lib/config.json"))
 except:
-    zipcode=input("no config file found, please input the 5-digit ZIP code: ")
+    zipcode=input("no config is file found, please input the 5-digit ZIP code: ")
     config={}
     config['zip']=int(zipcode)
     

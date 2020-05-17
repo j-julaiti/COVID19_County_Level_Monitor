@@ -1,0 +1,1 @@
+rm lib/config.json
