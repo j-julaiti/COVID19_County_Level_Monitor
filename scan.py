@@ -48,7 +48,7 @@ plt.plot(temp.date,temp.cases,"-x",label="{}: {}".format(dt,cs))
 plt.xticks(rotation=45)
 plt.legend()
 plt.subplot(1,2,2)
-daily_cases=temp.cases.shift(-1)-temp.cases
+daily_cases=temp.cases-temp.shift(1).cases
 plt.plot(temp.date,daily_cases,"-o")
 plt.plot(temp.date,daily_cases.rolling(window=7).mean(),color='black',linewidth=1,label='weekly rolling mean')
 past_three_day_mean=np.mean(list((temp.cases.shift(-1)-temp.cases)[-4:])[:-1])
@@ -59,6 +59,7 @@ idx_list=list(temp.index)
 weekend_start=None
 weekend_end=None
 for index,idx in enumerate(idx_list[1:]):
+    
     dt=temp.loc[idx,'date']
     wkd=dt.weekday()+1
     if not weekend_start and wkd>=6:
@@ -69,7 +70,7 @@ for index,idx in enumerate(idx_list[1:]):
         plt.axvspan(xmin=weekend_start,xmax=weekend_end,color="green",alpha=0.3)
         weekend_start=None
         weekend_end=None
-if wkd>=6:
+if wkd>=6 and weekend_start:
     weekend_end=dt
     plt.axvspan(xmin=weekend_start,xmax=weekend_end,color="green",alpha=0.3,label="weekday")
 else:
