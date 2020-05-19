@@ -1,8 +1,6 @@
 # COVID19 County Level Monitoring
 
 ## Requirements
-OS: Linux or OSX
-
 Python: >= 3.0
 
 Python Library:
@@ -10,9 +8,12 @@ Python Library:
 - numpy
 - matplotlib
 
-You can install the library via pip install
+You can install the required libraries via pip install
 
-## Install
+## Install 
+
+### Only for Linux or MacOS users
+
 `git clone https://github.com/JJ5196/COVID19_County_Level_Monitor.git`
 
 `cd COVID19_County_Level_Monitor`
@@ -21,7 +22,7 @@ You can install the library via pip install
 
 `source ~/.bashrc`
 
-Note that you can skip the installation and run the code via 
+### Windows Users or if you want to skip the installation
 
 `git clone https://github.com/JJ5196/COVID19_County_Level_Monitor.git`
 
