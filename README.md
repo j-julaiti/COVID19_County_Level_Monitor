@@ -22,7 +22,7 @@ You can install the required libraries via pip install
 
 `source ~/.bashrc`
 
-### Windows Users or if you want to skip the installation
+### Windows Users (or if you want to skip the installation)
 
 `git clone https://github.com/JJ5196/COVID19_County_Level_Monitor.git`
 
@@ -30,7 +30,7 @@ You can install the required libraries via pip install
 
 `python scan.py`
 
-## Usage (After the Installation)
+## Usage (After the Installation, and only for Linux/MacOS users)
 `scan`
 
 Note that you don't have to be inside the git folder to call the function scan
