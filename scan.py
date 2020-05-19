@@ -73,9 +73,9 @@ for index,idx in enumerate(idx_list[1:]):
         weekend_end=None
 if wkd>=6 and weekend_start:
     weekend_end=dt
-    plt.axvspan(xmin=weekend_start,xmax=weekend_end,color="green",alpha=0.3,label="weekday")
+    plt.axvspan(xmin=weekend_start,xmax=weekend_end,color="green",alpha=0.3,label="weekend")
 else:
-    plt.axvspan(xmin=dt,xmax=dt,color="green",alpha=0.3,label="weekday",ymax=0)
+    plt.axvspan(xmin=dt,xmax=dt,color="green",alpha=0.3,label="weekend",ymax=0)
 plt.xticks(rotation=45)
 plt.title("Daily New Cases")
 plt.suptitle("{}, {}, {}".format(County,State,str(temp.date.max())[:-9]))
