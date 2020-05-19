@@ -21,7 +21,15 @@ You can install the library via pip install
 
 `source ~/.bashrc`
 
-## Usage
+Note that you can skip the installation and run the code via 
+
+`git clone https://github.com/JJ5196/COVID19_County_Level_Monitor.git`
+
+`cd COVID19_County_Level_Monitor`
+
+`python scan.py`
+
+## Usage (After the Installation)
 `scan`
 
 Note that you don't have to be inside the git folder to call the function scan

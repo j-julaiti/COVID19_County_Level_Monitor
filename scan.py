@@ -45,6 +45,7 @@ plt.figure(figsize=(15,5))
 plt.subplot(1,2,1)
 dt,cs=str(temp.date.max())[:10],list(temp.cases)[-1]
 plt.plot(temp.date,temp.cases,"-x",label="{}: {}".format(dt,cs))
+plt.title("Total Cases")
 plt.xticks(rotation=45)
 plt.legend()
 plt.subplot(1,2,2)
@@ -76,6 +77,7 @@ if wkd>=6 and weekend_start:
 else:
     plt.axvspan(xmin=dt,xmax=dt,color="green",alpha=0.3,label="weekday",ymax=0)
 plt.xticks(rotation=45)
+plt.title("Daily New Cases")
 plt.suptitle("{}, {}, {}".format(County,State,str(temp.date.max())[:-9]))
 plt.legend()
 plt.show()    
